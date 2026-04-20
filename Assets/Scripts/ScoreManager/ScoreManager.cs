@@ -1,9 +1,8 @@
 using UnityEngine;
-using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    public TMP_Text scoreText;
+    [SerializeField] private SpriteScoreDisplay spriteDisplay;
     private int scoreCount = 0;
 
     void Start()
@@ -19,9 +18,7 @@ public class ScoreManager : MonoBehaviour
 
     private void UpdateScoreText()
     {
-        if (scoreText != null)
-        {
-            scoreText.text = "Score: " + scoreCount;
-        }
+        if (spriteDisplay != null)
+            spriteDisplay.UpdateDisplay(scoreCount);
     }
 }
