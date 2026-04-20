@@ -15,7 +15,7 @@ public class CutsceneManager : MonoBehaviour
         {
             videoPlayer = GetComponent<VideoPlayer>();
         }
-        string videoPath = Path.Combine(Application.streamingAssetsPath, "Post_Inreo1.mp4");
+        string videoPath = Path.Combine(Application.streamingAssetsPath, "Post_Intro.mp4");
         videoPlayer.url = videoPath;
         videoPlayer.Prepare();
         videoPlayer.prepareCompleted += OnVideoPrepared;
