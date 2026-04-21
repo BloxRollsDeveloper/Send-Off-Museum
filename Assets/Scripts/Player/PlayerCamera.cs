@@ -5,7 +5,7 @@ namespace Player
     public class PlayerCamera : MonoBehaviour
     {
         [SerializeField] private Transform _playerCamera;
-        [SerializeField] private float _cursorSensitivity = 3.5f;
+        [SerializeField] private float _cursorSensitivity = 6.5f;
         [SerializeField] private float _cursorSmoothTime = 0.03f;
         [SerializeField] private bool _lockCursor = true;
 

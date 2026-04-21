@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCamera
   _playerCamera: {fileID: 1032751640593444911}
-  _cursorSensitivity: 0.02
+  _cursorSensitivity: 0.07
   _cursorSmoothTime: 0.01
   _lockCursor: 1
 --- !u!143 &8504116549121857752
