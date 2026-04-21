@@ -158,7 +158,7 @@ MonoBehaviour:
     m_SingletonActionBindings:
     - m_Name: 
       m_Id: e962e83d-3bb0-419e-adf3-d19f6a6eaf7c
-      m_Path: 
+      m_Path: <Keyboard>/1
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -172,7 +172,15 @@ MonoBehaviour:
     m_Id: c2bb2b46-2c5c-4a90-a819-f938c4c727ae
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: ad1a6b80-61c5-4bd3-b603-c86f16e47927
+      m_Path: <Keyboard>/2
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Night Mode Button
+      m_Flags: 0
     m_Flags: 0
 --- !u!4 &264693316
 Transform:
@@ -352,8 +360,8 @@ Camera:
   m_GameObject: {fileID: 1694560640}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
