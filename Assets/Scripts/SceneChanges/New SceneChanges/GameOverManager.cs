@@ -20,12 +20,12 @@ public class GameOverManager : MonoBehaviour
     {
         if (mainMenuButton.WasPressedThisFrame())
         {
-            LoadMainMenu();
+            ReturnToGame();
         }
     }
 
-    public void LoadMainMenu()
+    public void ReturnToGame()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Sceneworld");
     }
 }
