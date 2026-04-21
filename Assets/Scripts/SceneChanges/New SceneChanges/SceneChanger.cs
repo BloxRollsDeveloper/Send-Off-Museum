@@ -23,11 +23,8 @@ public class SceneChanger : MonoBehaviour
     {
         if (DayModeButton.WasPressedThisFrame())
         {
-            SceneManager.LoadScene("Sceneworld");
+            SceneManager.LoadScene("Cutscene");
         }
-        if (NightModeButton.WasPressedThisFrame())
-        {
-            SceneManager.LoadScene("DarkSceneWorld");
-        }
+        
     }
 }
