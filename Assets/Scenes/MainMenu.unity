@@ -158,7 +158,7 @@ MonoBehaviour:
     m_SingletonActionBindings:
     - m_Name: 
       m_Id: e962e83d-3bb0-419e-adf3-d19f6a6eaf7c
-      m_Path: <Keyboard>/1
+      m_Path: <Keyboard>/space
       m_Interactions: 
       m_Processors: 
       m_Groups: 
