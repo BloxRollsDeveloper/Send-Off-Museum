@@ -145,9 +145,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 264693314}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 645254bab3f6f432fabdddbf3c697fdc, type: 3}
+  m_Script: {fileID: 11500000, guid: dd7b88ac6cf00d58697bf15e0d3dc5e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  DayModeButton:
+    m_Name: Day Mode Button
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c5a1a128-87f0-4e38-b107-3dce3fafcfef
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: e962e83d-3bb0-419e-adf3-d19f6a6eaf7c
+      m_Path: 
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Day Mode Button
+      m_Flags: 0
+    m_Flags: 0
+  NightModeButton:
+    m_Name: Night Mode Button
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c2bb2b46-2c5c-4a90-a819-f938c4c727ae
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!4 &264693316
 Transform:
   m_ObjectHideFlags: 0
